@@ -19,4 +19,22 @@ var today = dayjs();
 $('#currentDay').text(today.format('dddd, MMMM DD'));
 //console.log(now); 
 
+//color code event based on current time 
+
+
+
+//event listener when save button is clicked and save to local storage
+
+$('.saveBtn').on('click', function(event) {
+    event.preventDefault(); 
+    var text = $(this).siblings(".description").val();
+    var time = $(this).parent().attr("id");
+	localStorage.setItem(time,text);
+});
+
+//saving event in local storage 
+//$()
+
+
+
 });
