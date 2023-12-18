@@ -12,7 +12,7 @@ var currentHour = dayjs().hour();
  //console.log(currentHour);
  //get each time-block id 
  $('.time-block').each(function() {
-    var selectedHour = parseInt($(this).attr("id").split("-")[1]); //only get number value to check against current time
+   var selectedHour = parseInt($(this).attr("id").split("-")[1]); //convert string to integer and only get this to check against current time
     //console.log(selectedHour);
    $(this).removeClass('past present future'); //remove all classes to allow each class to show only if conditions are met
 
@@ -37,7 +37,7 @@ $('.saveBtn').on('click', function(event) {
 
 //Persist events between refreshes of a page
 // for loop to iterate over all the time-block textarea and get their value from local storage when page is refreshed 
-for (let i = 9; i <= 17; i++) {
+for (var i = 9; i <= 17; i++) {
     $("#hour-" + i + " .description").val(localStorage.getItem("hour-" + i));
 };
 
