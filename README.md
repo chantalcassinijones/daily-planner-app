@@ -18,11 +18,13 @@ Criteria for successful completition of this challenge were:
 
 * Persist events between refreshes of a page
 
+I enjoyed this challenge and it was a good way to practice using JQuery instead of Vanilla JS to navigate the DOM and create a dynamic application. I also really enjoyed exploring third-party API's and working with Day.js. 
+
 
 
 ## Usage
 
- All you need to do is open [this page](https://chantalcassinijones.github.io/daily-planner-app/) in your browser. 
+ All you need to do is open [this page](https://chantalcassinijones.github.io/daily-planner-app/) in your browser. The planner will be colour coded, depending on the time of day( grey for past, red for present and green for future). You can write something in the textbox and it will save into local storage, even if you refresh the page. 
 md
     ![Screenshot 1]()
     md
@@ -39,11 +41,22 @@ I read the following documentation to help me complete this challenge:
 
 [day.js](https://day.js.org/docs/en/display/format)
 
-[loops and iteration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#for_statement/)
+[.siblings()](https://api.jquery.com/siblings/)
+
+[.attr()](https://api.jquery.com/attr/)
+
+[.parent()](https://api.jquery.com/parent/)
+
+[.addClass and .removeClass](https://www.tutorialrepublic.com/jquery-tutorial/jquery-add-and-remove-css-classes.php)
+
+[.getItem and .setItem](https://stackoverflow.com/questions/40791207/setting-and-getting-localstorage-with-jquery)
+
+
+[chaining jquery](https://www.tutorialrepublic.com/jquery-tutorial/jquery-chaining.php)
 
 [icons](https://fontawesome.com/v5/icons/save?f=classic&s=solid)
 
-[functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
+[.each](https://api.jquery.com/each/)
 
 [textarea element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea)
 
