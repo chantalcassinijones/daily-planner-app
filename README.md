@@ -24,7 +24,7 @@ I enjoyed this challenge and it was a good way to practice using JQuery instead 
 
 ## Usage
 
- All you need to do is open [this page](https://chantalcassinijones.github.io/daily-planner-app/) in your browser. The planner will be colour coded, depending on the time of day( grey for past, red for present and green for future). You can write something in the textbox and it will save into local storage, even if you refresh the page. 
+ All you need to do is open [this page](https://chantalcassinijones.github.io/daily-planner-app/) in your browser. The planner will be colour coded, depending on the time of day( grey for past, orange for present and green for future). You can write something in the textbox and it will save into local storage, even if you refresh the page. 
 md
     ![Screenshot 1]()
     md
@@ -63,4 +63,6 @@ I read the following documentation to help me complete this challenge:
 [bootstrap layout](https://getbootstrap.com/docs/5.3/layout/columns/#horizontal-alignment)
 
 [bootstrap buttons](https://getbootstrap.com/docs/5.3/components/buttons/)
+
+[gradiant()](https://cssgradient.io/)
 
