@@ -25,12 +25,13 @@ I enjoyed this challenge and it was a good way to practice using JQuery instead 
 ## Usage
 
  All you need to do is open [this page](https://chantalcassinijones.github.io/daily-planner-app/) in your browser. The planner will be colour coded, depending on the time of day( grey for past, orange for present and green for future). You can write something in the textbox and it will save into local storage, even if you refresh the page. 
+
 md
     ![Screenshot 1](./assets/screenshot/Screenshot%202023-12-18%20233521.png)
-    md
-    ![Screenshot 2]()
-    md
-    ![Screenshot 3]()
+
+md
+    ![Screenshot 2](./assets/screenshot/Screenshot%202023-12-19%20002005.png)
+   
 
 
 ## Credits
